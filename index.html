@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora</title>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div>
+    <p>
+        Número1: <input id="n1" type="text"><br>
+        Número2: <input id="n2" type="text">
+    </p>
+
+    <p>
+      <input type="radio" name="operacao" id="adicao" value="+" checked><label for="adicao">Adição</label><br>
+      <input type="radio" name="operacao" id="subtracao" value="-" checked><label for="subtracao">Subtração</label><br>
+      <input type="radio" name="operacao" id="multiplicacao" value="*" checked><label for="multiplacacao">Multiplicação</label><br>
+      <input type="radio" name="operacao" id="divisao" value="/" checked><label for="divisao">Divisão</label><br>
+      <input type="radio" name="operacao" id="exponenciacao" value="**" checked><label for="exponenciacao">Exponenciação</label><br>
+    </p>
+
+    <p>
+      <input type="button" value="Calcular" onclick="calculadora()">
+    </p>
+
+    <p>
+      Resultado: <input id="resultado" type="text">
+    </p>
+  </div>
+</body>
+</html>
