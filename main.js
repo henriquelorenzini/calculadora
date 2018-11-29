@@ -21,5 +21,6 @@ function calculadora() {
   if(document.getElementsByName('operacao')[4].checked){
     resultado = n1**n2;
   }
+
   document.getElementById('resultado').innerHTML = resultado;
 }
